@@ -135,7 +135,7 @@ header .wrapper {
   flex-direction: column;
   gap: 1em;
   max-width: 400px;
-
+  margin: 0 auto;
 }
 
 cite {
@@ -189,7 +189,7 @@ cite {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
-    margin: 0;
+    margin: 0 30px;
   }
 
   .quotes blockquote {
@@ -249,6 +249,10 @@ cite {
     margin-bottom: 20px;
   }
 
+  .quotes {
+    margin: 0 30px;
+  }
+  
   #reviews h2 {
     margin-bottom: 10px;
   }
